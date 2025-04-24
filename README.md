@@ -4,13 +4,13 @@ This project presents a **wireless hand gesture-controlled robot** system using 
 
 ---
 
-## 📜 Project Overview
+##  Project Overview
 
 Aimed at enhancing human-machine interaction, this system replaces traditional control methods like joysticks and voice commands with natural, contactless hand gestures. It’s particularly valuable in **assistive technology**, **industrial automation**, and **remote operations**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Wireless gesture-based control
 - Real-time robot navigation
@@ -20,7 +20,7 @@ Aimed at enhancing human-machine interaction, this system replaces traditional c
 
 ---
 
-## 📷 System Components
+##  System Components
 
 - **MPU6050 Accelerometer**
 - **Arduino Nano / Uno**
@@ -31,7 +31,7 @@ Aimed at enhancing human-machine interaction, this system replaces traditional c
 
 ---
 
-## 📈 System Architecture
+##  System Architecture
 
 **Modules:**
 - **Transmitter (Hand Module)**: Detects gestures and sends commands via RF
@@ -40,7 +40,7 @@ Aimed at enhancing human-machine interaction, this system replaces traditional c
 
 ---
 
-## 💾 Libraries Used
+##  Libraries Used
 
 - `Wire.h` – I2C communication with MPU6050
 - `RF24.h` – RF communication with nRF24L01
@@ -49,55 +49,21 @@ Aimed at enhancing human-machine interaction, this system replaces traditional c
 
 ---
 
-## 🔧 How It Works
 
-1. **User performs a hand gesture**
-2. **MPU6050 detects hand orientation changes**
-3. **Arduino Nano processes raw data**
-4. **nRF24L01 transmits gesture command**
-5. **Robot’s Arduino Uno receives and interprets the command**
-6. **L298N Motor Driver moves the robot in the respective direction**
-
----
-
-## 📊 Test Results
-
-| Gesture  | Accuracy (%) | Response Time (ms) |
-|:----------|:----------------|:---------------------|
-| Forward   | 95%               | 70 ms                  |
-| Backward  | 90%               | 70 ms                  |
-| Left      | 85%               | 70 ms                  |
-| Right     | 95%               | 70 ms                  |
-| Stop      | 100%              | 30 ms                  |
-
----
-
-## 🔮 Future Enhancements
-
-- AI-based adaptive gesture learning
-- Integration with IoT and smart devices
-- Voice command feature
-- Autonomous robot navigation
-- Environmental alerts and enhanced power management
-
----
-
-## 📎 Documentation
+##  Documentation
 
 The complete project report, system diagrams, coding blocks, and test cases are available in the **[Final Thesis Document](./Final_Thesis.pdf)**.
 
 ---
 
-## 📬 Connect
+## Result
 
-> **Project by:**  
-> G. Kalyan Sai Goud, Rajam Pavan Kumar, Balthu Varshith  
-> Under the guidance of **Mr. M. Ravi Kumar**  
-> Department of Computer Science & Engineering (IoT), Malla Reddy University  
+Transmission Module
 
----
+![image](https://github.com/user-attachments/assets/c41f17ed-0cb0-4199-9a9d-71af264718d2)
 
-## 📌 License
+Receiver Module
 
-This project is open-source under the MIT License — see the [LICENSE](LICENSE) file for details.
+![image](https://github.com/user-attachments/assets/b25e88b1-89aa-4025-957d-012cd5c36e8d)
 
+ 
